@@ -1,0 +1,5 @@
+COMPILATION
+	gcc stitch.c -o stitch -lcrypto; gcc split.c -o split -lcrypto
+USAGE
+	./split <FILE>
+	./stitch <FILE>.manifest
