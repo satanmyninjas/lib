@@ -1,5 +1,8 @@
-COMPILATION
+COMPILATION FOR C-BASED TOOLS
 	gcc stitch.c -o stitch -lcrypto; gcc split.c -o split -lcrypto
 USAGE
 	./split <FILE>
 	./stitch <FILE>.manifest
+
+PYTHON HASH & DUPLICATE FILE REMOVER
+	python3  filecheck.py <DIRECTORY> --threads <AVAIL_THREADS>
